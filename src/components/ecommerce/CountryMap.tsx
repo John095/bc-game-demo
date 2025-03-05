@@ -1,12 +1,10 @@
 import React from "react";
-// import { VectorMap } from "@react-jvectormap/core";
 import { worldMill } from "@react-jvectormap/world";
 import dynamic from "next/dynamic";
 
-const VectorMap = dynamic(
-  () => import("@react-jvectormap/core").then((mod) => mod.VectorMap),
-  { ssr: false }
-);
+const VectorMap = dynamic(() => import("@react-jvectormap/core").then(mod => mod.VectorMap), {
+  ssr: false // Disable SSR for client-side rendering
+});
 
 // Define the component props
 interface CountryMapProps {
