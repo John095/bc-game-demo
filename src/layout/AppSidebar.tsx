@@ -5,26 +5,17 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useSidebar } from "../context/SidebarContext";
 import {
-  BoxCubeIcon,
-  CalenderIcon,
   ChevronDownIcon,
-  GridIcon,
   HorizontaLDots,
-  ListIcon,
-  PageIcon,
-  PieChartIcon,
-  PlugInIcon,
-  TableIcon,
-  UserCircleIcon,
 } from "../icons/index";
-import SidebarWidget from "./SidebarWidget";
+
 
 import { PiCourtBasketballDuotone, PiSoccerBallDuotone,PiTennisBallDuotone, PiBasketballDuotone,PiCricketDuotone,PiBoxingGloveDuotone,PiFootballDuotone,PiTicketDuotone,PiGiftDuotone } from "react-icons/pi";
 import { GiTakeMyMoney,GiMoneyStack } from "react-icons/gi";
 import { BsStars } from "react-icons/bs";
-import { FaBitcoin } from "react-icons/fa6";
+// import { FaBitcoin } from "react-icons/fa6";
 import { RiVipCrown2Line } from "react-icons/ri";
-import { TbAffiliate,TbMessagePin } from "react-icons/tb";
+import { TbAffiliate } from "react-icons/tb";
 import { AiTwotoneMessage } from "react-icons/ai";
 
 
