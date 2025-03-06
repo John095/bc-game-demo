@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
-import StatisticsChart from "@/components/ecommerce/StatisticsChart";
-import RecentOrders from "@/components/ecommerce/RecentOrders";
-import DemographicCard from "@/components/ecommerce/DemographicCard";
+
 import Banner from "@/components/Banner/Banner";
 import CardsCarousel from "@/components/CardsCarousel";
 
