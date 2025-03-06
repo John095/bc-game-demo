@@ -5,7 +5,7 @@ import React from "react";
 export default function Banner() {
   
   return (
-    <div className="rounded-2xl flex justify-between items border border-gray-200 bg-white px-0 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6 relative overflow-hidden">
+    <div className="rounded-2xl flex justify-between items border border-gray-200 bg-dark/[0.03] px-0 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6 relative overflow-hidden">
       <div className="bg-gradient-to-r from-brand-900/80 to-transparent h-full w-full bg-contain absolute left-0 top-0 -z-1 overflow-hidden">
         <Image 
           src="/images/3D-logo.webp" 
@@ -17,7 +17,7 @@ export default function Banner() {
       </div>
       <div className="flex flex-col gap-2 m-6 py-4 sm:py-2 flex-1 justify-center items-start sm:items-center z-100">
         <h3 className="text-gray-800 dark:text-white text-2xl sm:text-3xl font-bold mb-4"> Stay Untamed</h3>
-        <div className="flex flex-col items-start sm:items-center justify-center rounded-2xl bg-none backdrop-blur-sm sm:bg-gray-100/80 dark:sm:bg-black/80 py-3 sm:px-20 mb-4">
+        <div className="flex flex-col items-start sm:items-center justify-center rounded-2xl bg-none backdrop-blur-sm sm:bg-gray-100/60 dark:sm:bg-black/60 py-3 sm:px-20 mb-4">
           <p className="text-gray-800 dark:text-white text-xl sm:text-2xl mb-2">
             Sign Up & Get
           </p>
