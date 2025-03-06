@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-// import { EcommerceMetrics } from "@/components/ecommerce/EcommerceMetrics";
 import React from "react";
-// import MonthlyTarget from "@/components/ecommerce/MonthlyTarget";
-// import MonthlySalesChart from "@/components/ecommerce/MonthlySalesChart";
-// import StatisticsChart from "@/components/ecommerce/StatisticsChart";
-// import RecentOrders from "@/components/ecommerce/RecentOrders";
-// import DemographicCard from "@/components/ecommerce/DemographicCard";
+import StatisticsChart from "@/components/ecommerce/StatisticsChart";
+import RecentOrders from "@/components/ecommerce/RecentOrders";
+import DemographicCard from "@/components/ecommerce/DemographicCard";
+import Banner from "@/components/Banner/Banner";
+import CardsCarousel from "@/components/CardsCarousel";
+
 
 export const metadata: Metadata = {
   title:
@@ -24,13 +24,20 @@ export default function Ecommerce() {
 
       <div className="col-span-12 xl:col-span-5">
         <MonthlyTarget />
+      </div> */}
+      <div className="col-span-12">
+        <Banner />
       </div>
 
       <div className="col-span-12">
-        <StatisticsChart />
+        <CardsCarousel />
       </div>
 
-      <div className="col-span-12 xl:col-span-5">
+      {/* <div className="col-span-12">
+        <StatisticsChart />
+      </div> */}
+
+      {/* <div className="col-span-12 xl:col-span-5">
         <DemographicCard />
       </div>
 
